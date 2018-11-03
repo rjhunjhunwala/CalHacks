@@ -123,4 +123,4 @@ def get_parsed_data(img):
     :return:
     """
     # return 5
-    return [["HEAD","Hello"],["IMAGE","../static/profile.png"],["TEXT", "This is a circuit"]]
+    return [["HEAD","Hello"],["IMAGE","../static/img/profile.png"],["TEXT", "This is a circuit"]]
