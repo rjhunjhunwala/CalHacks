@@ -80,7 +80,7 @@ def make_file(output):
     output_text = header
     return header #TODO: make a pretty HTML/CSS file... write it to temp
 def save_file_to_sketch_back_end(id):
-    f = open(id+".html","w")
+    f = open("templates/"+id+".html","w")
     f.write(output_text)
     return None #TODO: store the file in some persistent way.
 def get_image_from_sketch_back_end():
