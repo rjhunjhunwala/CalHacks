@@ -9,20 +9,6 @@
       <change afterPath="$PROJECT_DIR$/../SodokuSolver/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SodokuSolver/Solve-Sodoku-Board.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/resume.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/resume.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_bootstrap-overrides.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_global.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_nav.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_resume-item.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/resume.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stylesheets/github-dark.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stylesheets/github-light.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stylesheets/normalize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stylesheets/stylesheet.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,7 +45,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="md" value="125" />
-          <entry key="py" value="652" />
+          <entry key="py" value="655" />
           <entry key="txt" value="79" />
         </counts>
       </usages-collector>
@@ -67,7 +53,7 @@
         <counts>
           <entry key="Markdown" value="125" />
           <entry key="PLAIN_TEXT" value="79" />
-          <entry key="Python" value="652" />
+          <entry key="Python" value="655" />
         </counts>
       </usages-collector>
     </session>
@@ -77,12 +63,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            <state relative-caret-position="165">
+              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
               <folding>
-                <marker date="1541231112217" expanded="true" signature="192:237" ph="..." />
-                <marker date="1541231112217" expanded="true" signature="280:298" ph="..." />
-                <marker date="1541231112217" expanded="true" signature="365:370" ph="..." />
+                <marker date="1541231208503" expanded="true" signature="192:233" ph="..." />
+                <marker date="1541231208503" expanded="true" signature="276:294" ph="..." />
+                <marker date="1541231208503" expanded="true" signature="361:366" ph="..." />
               </folding>
             </state>
           </provider>
@@ -220,7 +206,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -234,7 +220,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -279,12 +265,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        <state relative-caret-position="165">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
           <folding>
-            <marker date="1541231112217" expanded="true" signature="192:237" ph="..." />
-            <marker date="1541231112217" expanded="true" signature="280:298" ph="..." />
-            <marker date="1541231112217" expanded="true" signature="365:370" ph="..." />
+            <marker date="1541231208503" expanded="true" signature="192:233" ph="..." />
+            <marker date="1541231208503" expanded="true" signature="276:294" ph="..." />
+            <marker date="1541231208503" expanded="true" signature="361:366" ph="..." />
           </folding>
         </state>
       </provider>
