@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, render_template
 # import base64
 # import cv2
 # import io
@@ -12,7 +12,7 @@ def make_new(id):
 
 @app.route('/<id>')
 def get_notes_page(id):
-    return app.render_template("index.html")
+    return render_template("index.html")
 
 if __name__ == '__main__':
     app.run()
