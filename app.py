@@ -73,6 +73,7 @@ def make_file(output):
                 header+='</div><hr class="m-0"></section>'
             unclosed_head = True
             header+='<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="%s"><div class="my-auto">' %lst[1]
+            header+='<h1>'+lst[1]+"</h1>"
         elif lst[0] == "IMAGE":
             header+='<img src = "%s"' %lst[1] +"></img>"
         else: #paragraph
