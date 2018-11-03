@@ -35,7 +35,7 @@ def make_file(output):
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Rohan Jhunjhunwala, Software Portfolio</title>
+    <title>Cal Hacks, Notes to Web</title>
     <link rel="stylesheet" type="text/css" href="static/stylesheets/stylesheet.css" media="screen">
     <!-- Bootstrap core CSS -->
     <link href="static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
