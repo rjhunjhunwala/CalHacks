@@ -4,11 +4,11 @@ from flask import Flask
 # import io
 # from imageio import imread
 
-app = Flask(__name__, static_url_path='')
+app = Flask(__name__, static_url_path='/staticvim')
 
 @app.route('/make_new/<id>')
 def make_new(id):
-    return app.send_static_file("profile.png")
+    return app.send_static_file("index.html")
 
 @app.route('/<id>')
 def get_notes_page(id):
