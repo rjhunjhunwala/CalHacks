@@ -24,7 +24,7 @@ def get_string_from_sketch_back_end(id):
     return make_file(get_parsed_data(None)) #TODO: get a file from back end
 def get_image_from_sketch_back_end(id):
     return None #TODO: get an image from back end
-def store_string_back_end(id):
+def store_string_back_end(id, string):
     return None #TODO get a string form back end
 
 def make_file(output):
