@@ -18,7 +18,7 @@ def get_notes_page(id):
         store_string_back_end(id[9:], output_string)
         return render_template_string(output_string)
     else:
-        return render_template(get_string_from_sketch_back_end(id))
+        return render_template_string(get_string_from_sketch_back_end(id))
 TEMP = "temp.html"
 def get_string_from_sketch_back_end(id):
     return make_file(get_parsed_data(None)) #TODO: get a file from back end
