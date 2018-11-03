@@ -16,7 +16,7 @@ def get_notes_page(id):
         output = get_parsed_data(img)
         make_file(output)
         save_file_to_sketch_back_end(id[9:])
-        return render_template(id[9:] + ".html")
+        return render_template("test" + ".html")
     else:
         get_file_from_sketch_back_end(id)
         return render_template(id + ".html")
