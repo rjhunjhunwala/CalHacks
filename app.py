@@ -4,7 +4,7 @@ from flask import Flask
 # import io
 # from imageio import imread
 
-app = Flask(__name__)
+app = Flask(__name__, static_url_path='/static')
 
 
 @app.route('/make_new/<id>')
