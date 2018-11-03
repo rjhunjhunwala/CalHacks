@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 
 @app.route('/?<id>')
-def hello_world(g):
+def hello_world(id):
     return 'Hello World!'
 
 
