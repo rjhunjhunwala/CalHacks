@@ -8,7 +8,11 @@ app = Flask(__name__)
 
 @app.route('/make_new/<id>')
 def make_new(id):
-    return app.send_static_file("index.html")
+    img = imread(io.BytesIO(base64.b64decode(id)))
+    img = cv2.cvtColor(img, cv2.COLOR_RGB2BGR)
+    parsed = get_parsed_data(img)
+    cv2.imwrite("static/profile.png", img)
+    return render_template("index.html")
 
 @app.route('/<id>')
 def get_notes_page(id):
@@ -31,3 +35,5 @@ def get_parsed_data(img):
     :param img: CV2 image that's BGR
     :return:
     """
+    # return 5
+    return [["HEAD","Hello"],["IMAGE","image_path"],["TEXT", "This is a circuit"]]
