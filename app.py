@@ -11,21 +11,22 @@ output_text = ""
 @app.route('/<id>')
 def get_notes_page(id):
     if id[0:9] == "API_INPUT":
-        return render_template_string(make_file(get_parsed_data(None)))
         img = get_image_from_sketch_back_end(id[9:])
         img = cv2.cvtColor(img, cv2.COLOR_RGB2BGR)
         output = get_parsed_data(img)
-        make_file(output)
-        save_file_to_sketch_back_end(id[9:])
-
+        output_string = make_file(output)
+        store_string_back_end(id[9:], output_string)
+        return render_template_string(output_string)
     else:
-        get_file_from_sketch_back_end(id)
-        return render_template(id + ".html")
+        return get_string_from_sketch_back_end(id)
 TEMP = "temp.html"
-def get_file_from_sketch_back_end(id):
+def get_string_from_sketch_back_end(id):
     return None #TODO: get a file from back end
 def get_image_from_sketch_back_end(id):
     return None #TODO: get an image from back end
+def store_string_back_end(id):
+    return None #TODO get a string form back end
+
 def make_file(output):
     header = """
     <!DOCTYPE html>
@@ -62,11 +63,26 @@ def make_file(output):
                 header+= '<li class="nav-item">'
                 header += '<a class="nav-link js-scroll-trigger" href="#%s">%s</a>' %(lst[0], lst[0])
                 header+='</li>'
-
         header+="</ul></div></nav>"
+
     unclosed_head = False
+
+    for lst in output:
+        if lst[0] == "HEAD":
+            if unclosed_head:
+                header+='</div><hr class="m-0"></section>'
+            unclosed_head = True
+            header+='<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="%s"><div class="my-auto">' %lst[1]
+        elif lst[0] == "IMAGE":
+            header+='<img src = "%s"' %lst[1] +"></img>"
+        else: #paragraph
+            header+='<p>' + lst[1] + '</p>'
+
+
+
     if unclosed_head:
-        header+="</section>"
+        header += '</div><hr class="m-0"></section>'
+
     header+="""
         <script src="../static/vendor/jquery/jquery.min.js"></script>
     <script src="../static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
