@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, render_template_string
 import base64
 import cv2
 import io
@@ -16,7 +16,7 @@ def get_notes_page(id):
         output = get_parsed_data(img)
         make_file(output)
         save_file_to_sketch_back_end(id[9:])
-        return render_template(id[9:] + ".html")
+        return render_template_string(output)
     else:
         get_file_from_sketch_back_end(id)
         return render_template(id + ".html")
