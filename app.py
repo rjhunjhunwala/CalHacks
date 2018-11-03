@@ -1,18 +1,18 @@
 from flask import Flask
-# import base64
-# import cv2
-# import io
-# from imageio import imread
+import base64
+import cv2
+import io
+from imageio import imread
 
 app = Flask(__name__)
 
 
 @app.route('/make_new/<id>')
-def hello_world(id):
+def make_new(id):
     return '<img href="profile.png"></img>'
 
 @app.route('/<id>')
-def hello_world(id):
+def get_notes_page(id):
     return id
 
 

@@ -8,7 +8,7 @@
       <change afterPath="$PROJECT_DIR$/../SelfPaced/src/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SodokuSolver/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SodokuSolver/Solve-Sodoku-Board.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,7 +43,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="md" value="125" />
-          <entry key="py" value="597" />
+          <entry key="py" value="631" />
           <entry key="txt" value="79" />
         </counts>
       </usages-collector>
@@ -51,7 +51,7 @@
         <counts>
           <entry key="Markdown" value="125" />
           <entry key="PLAIN_TEXT" value="79" />
-          <entry key="Python" value="597" />
+          <entry key="Python" value="631" />
         </counts>
       </usages-collector>
     </session>
@@ -61,13 +61,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+            <state relative-caret-position="210">
+              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
               <folding>
-                <element signature="e#0#23#0" expanded="true" />
-                <marker date="1541229842314" expanded="true" signature="160:206" ph="..." />
-                <marker date="1541229842314" expanded="true" signature="246:264" ph="..." />
-                <marker date="1541229842314" expanded="true" signature="331:336" ph="..." />
+                <marker date="1541230241192" expanded="true" signature="165:211" ph="..." />
+                <marker date="1541230241192" expanded="true" signature="254:272" ph="..." />
+                <marker date="1541230241192" expanded="true" signature="339:344" ph="..." />
               </folding>
             </state>
           </provider>
@@ -147,10 +146,6 @@
             <path>
               <item name="CalHacks" type="b2602c69:ProjectViewProjectNode" />
               <item name="CalHacks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CalHacks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -265,13 +260,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        <state relative-caret-position="210">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
           <folding>
-            <element signature="e#0#23#0" expanded="true" />
-            <marker date="1541229842314" expanded="true" signature="160:206" ph="..." />
-            <marker date="1541229842314" expanded="true" signature="246:264" ph="..." />
-            <marker date="1541229842314" expanded="true" signature="331:336" ph="..." />
+            <marker date="1541230241192" expanded="true" signature="165:211" ph="..." />
+            <marker date="1541230241192" expanded="true" signature="254:272" ph="..." />
+            <marker date="1541230241192" expanded="true" signature="339:344" ph="..." />
           </folding>
         </state>
       </provider>
