@@ -1,6 +1,6 @@
 from flask import Flask
 import base64
-import cv2
+# import cv2
 import io
 from imageio import imread
 
