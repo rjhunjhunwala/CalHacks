@@ -1,8 +1,8 @@
 from flask import Flask, render_template
-# import base64
+import base64
 import cv2
-# import io
-# from imageio import imread
+import io
+from imageio import imread
 
 app = Flask(__name__)
 
