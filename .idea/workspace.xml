@@ -8,8 +8,6 @@
       <change afterPath="$PROJECT_DIR$/../SelfPaced/src/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SodokuSolver/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SodokuSolver/Solve-Sodoku-Board.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,7 +62,7 @@
           <entry key="Procfile" value="6" />
           <entry key="html" value="71" />
           <entry key="md" value="125" />
-          <entry key="py" value="3970" />
+          <entry key="py" value="3985" />
           <entry key="txt" value="79" />
         </counts>
       </usages-collector>
@@ -73,7 +71,7 @@
           <entry key="HTML" value="71" />
           <entry key="Markdown" value="125" />
           <entry key="PLAIN_TEXT" value="87" />
-          <entry key="Python" value="3970" />
+          <entry key="Python" value="3985" />
         </counts>
       </usages-collector>
     </session>
@@ -102,18 +100,18 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+            <state relative-caret-position="277">
+              <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
               <folding>
                 <element signature="e#0#64#0" expanded="true" />
-                <marker date="1541288760058" expanded="true" signature="167:169" ph="..." />
-                <marker date="1541288760058" expanded="true" signature="630:4525" ph="..." />
-                <marker date="1541288760058" expanded="true" signature="868:919" ph="..." />
-                <marker date="1541288760058" expanded="true" signature="3950:3955" ph="..." />
-                <marker date="1541288760058" expanded="true" signature="3950:3997" ph="..." />
-                <marker date="1541288760058" expanded="true" signature="3950:4094" ph="..." />
-                <marker date="1541288760058" expanded="true" signature="4133:4191" ph="..." />
-                <marker date="1541288760058" expanded="true" signature="4592:4597" ph="..." />
+                <marker date="1541288886388" expanded="true" signature="167:169" ph="..." />
+                <marker date="1541288886388" expanded="true" signature="637:4540" ph="..." />
+                <marker date="1541288886388" expanded="true" signature="883:934" ph="..." />
+                <marker date="1541288886388" expanded="true" signature="3965:3970" ph="..." />
+                <marker date="1541288886388" expanded="true" signature="3965:4012" ph="..." />
+                <marker date="1541288886388" expanded="true" signature="3965:4109" ph="..." />
+                <marker date="1541288886388" expanded="true" signature="4148:4206" ph="..." />
+                <marker date="1541288886388" expanded="true" signature="4607:4612" ph="..." />
               </folding>
             </state>
           </provider>
@@ -310,7 +308,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49920255" weight="0.2532189" />
       <window_info id="Structure" order="1" sideWeight="0.50079745" side_tool="true" weight="0.2532189" />
@@ -455,18 +452,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+        <state relative-caret-position="277">
+          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
           <folding>
             <element signature="e#0#64#0" expanded="true" />
-            <marker date="1541288760058" expanded="true" signature="167:169" ph="..." />
-            <marker date="1541288760058" expanded="true" signature="630:4525" ph="..." />
-            <marker date="1541288760058" expanded="true" signature="868:919" ph="..." />
-            <marker date="1541288760058" expanded="true" signature="3950:3955" ph="..." />
-            <marker date="1541288760058" expanded="true" signature="3950:3997" ph="..." />
-            <marker date="1541288760058" expanded="true" signature="3950:4094" ph="..." />
-            <marker date="1541288760058" expanded="true" signature="4133:4191" ph="..." />
-            <marker date="1541288760058" expanded="true" signature="4592:4597" ph="..." />
+            <marker date="1541288886388" expanded="true" signature="167:169" ph="..." />
+            <marker date="1541288886388" expanded="true" signature="637:4540" ph="..." />
+            <marker date="1541288886388" expanded="true" signature="883:934" ph="..." />
+            <marker date="1541288886388" expanded="true" signature="3965:3970" ph="..." />
+            <marker date="1541288886388" expanded="true" signature="3965:4012" ph="..." />
+            <marker date="1541288886388" expanded="true" signature="3965:4109" ph="..." />
+            <marker date="1541288886388" expanded="true" signature="4148:4206" ph="..." />
+            <marker date="1541288886388" expanded="true" signature="4607:4612" ph="..." />
           </folding>
         </state>
       </provider>
