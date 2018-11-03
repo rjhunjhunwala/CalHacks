@@ -14,7 +14,7 @@ def get_notes_page(id):
         img = get_image_from_sketch_back_end(id[9:])
         img = cv2.cvtColor(img, cv2.COLOR_RGB2BGR)
         output = get_parsed_data(img)
-        make_file(output)
+        return make_file(output)
         save_file_to_sketch_back_end(id[9:])
         return render_template(id[9:] + ".html")
     else:
