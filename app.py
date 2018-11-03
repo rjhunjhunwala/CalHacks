@@ -82,6 +82,7 @@ def make_file(output):
 def save_file_to_sketch_back_end(id):
     f = open("templates/"+id+".html","w")
     f.write(output_text)
+    f.close()
     return None #TODO: store the file in some persistent way.
 def get_image_from_sketch_back_end():
     return None # TODO: get a file from sketchy back end
