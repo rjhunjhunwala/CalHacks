@@ -9,7 +9,6 @@
       <change afterPath="$PROJECT_DIR$/../SodokuSolver/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SodokuSolver/Solve-Sodoku-Board.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -99,17 +98,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
-              <caret line="74" column="54" selection-start-line="74" selection-start-column="54" selection-end-line="74" selection-end-column="54" />
+            <state relative-caret-position="557">
+              <caret line="85" column="17" lean-forward="true" selection-start-line="85" selection-start-column="17" selection-end-line="85" selection-end-column="17" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
-                <marker date="1541279762971" expanded="true" signature="143:145" ph="..." />
-                <marker date="1541279762971" expanded="true" signature="597:3768" ph="..." />
-                <marker date="1541279762971" expanded="true" signature="636:3434" ph="..." />
-                <marker date="1541279762971" expanded="true" signature="3298:3303" ph="..." />
-                <marker date="1541279762971" expanded="true" signature="3298:3332" ph="..." />
-                <marker date="1541279762971" expanded="true" signature="3298:3415" ph="..." />
-                <marker date="1541279762971" expanded="true" signature="3835:3840" ph="..." />
+                <marker date="1541280009942" expanded="true" signature="143:145" ph="..." />
+                <marker date="1541280009942" expanded="true" signature="597:3767" ph="..." />
+                <marker date="1541280009942" expanded="true" signature="636:3433" ph="..." />
+                <marker date="1541280009942" expanded="true" signature="3298:3303" ph="..." />
+                <marker date="1541280009942" expanded="true" signature="3298:3332" ph="..." />
+                <marker date="1541280009942" expanded="true" signature="3298:3415" ph="..." />
+                <marker date="1541280009942" expanded="true" signature="3834:3839" ph="..." />
               </folding>
             </state>
           </provider>
@@ -295,7 +294,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49920255" visible="true" weight="0.2532189" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49920255" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" sideWeight="0.50079745" side_tool="true" weight="0.2532189" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -309,7 +308,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32891566" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.24457832" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.24457832" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -413,17 +412,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="74" column="54" selection-start-line="74" selection-start-column="54" selection-end-line="74" selection-end-column="54" />
+        <state relative-caret-position="557">
+          <caret line="85" column="17" lean-forward="true" selection-start-line="85" selection-start-column="17" selection-end-line="85" selection-end-column="17" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
-            <marker date="1541279762971" expanded="true" signature="143:145" ph="..." />
-            <marker date="1541279762971" expanded="true" signature="597:3768" ph="..." />
-            <marker date="1541279762971" expanded="true" signature="636:3434" ph="..." />
-            <marker date="1541279762971" expanded="true" signature="3298:3303" ph="..." />
-            <marker date="1541279762971" expanded="true" signature="3298:3332" ph="..." />
-            <marker date="1541279762971" expanded="true" signature="3298:3415" ph="..." />
-            <marker date="1541279762971" expanded="true" signature="3835:3840" ph="..." />
+            <marker date="1541280009942" expanded="true" signature="143:145" ph="..." />
+            <marker date="1541280009942" expanded="true" signature="597:3767" ph="..." />
+            <marker date="1541280009942" expanded="true" signature="636:3433" ph="..." />
+            <marker date="1541280009942" expanded="true" signature="3298:3303" ph="..." />
+            <marker date="1541280009942" expanded="true" signature="3298:3332" ph="..." />
+            <marker date="1541280009942" expanded="true" signature="3298:3415" ph="..." />
+            <marker date="1541280009942" expanded="true" signature="3834:3839" ph="..." />
           </folding>
         </state>
       </provider>

@@ -83,7 +83,8 @@ def save_file_to_sketch_back_end(id):
     f = open(id+".html","w")
     f.write(output_text)
     return None #TODO: store the file in some persistent way.
-def get_image_from
+def get_image_from_sketch_back_end():
+    return None # TODO: get a file from sketchy back end
 @app.after_request
 def add_header(response):
     """
