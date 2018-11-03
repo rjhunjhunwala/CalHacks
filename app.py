@@ -12,7 +12,7 @@ def make_new(id):
 
 @app.route('/<id>')
 def get_notes_page(id):
-    return id
+    return app.send_static_file("index.html")
 
 if __name__ == '__main__':
     app.run()
