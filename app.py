@@ -4,9 +4,7 @@ from flask import Flask
 # import io
 # from imageio import imread
 
-app = Flask(__name__)
-app.static_url_path = "/static"
-app.send_static_file("/static/profile.png")
+app = Flask(__name__, static_url_path='')
 
 @app.route('/make_new/<id>')
 def make_new(id):
