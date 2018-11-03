@@ -11,6 +11,7 @@ output_text = ""
 @app.route('/<id>')
 def get_notes_page(id):
     if id[0:9] == "API_INPUT":
+        return "TEST!"
         return make_file(get_parsed_data(None))
         img = get_image_from_sketch_back_end(id[9:])
         img = cv2.cvtColor(img, cv2.COLOR_RGB2BGR)
