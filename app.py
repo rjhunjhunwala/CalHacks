@@ -27,7 +27,6 @@ def get_file_from_sketch_back_end(id):
 def get_image_from_sketch_back_end(id):
     return None #TODO: get an image from back end
 def make_file(output):
-    return "Hello, World!"
     header = """
     <!DOCTYPE html>
     <html lang="en">
