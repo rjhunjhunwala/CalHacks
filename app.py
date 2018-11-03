@@ -8,7 +8,7 @@ app = Flask(__name__, static_url_path='')
 
 @app.route('/make_new/<id>')
 def make_new(id):
-    return '<img src="profile"></img>'
+    return app.send_static_file("profile.png")
 
 @app.route('/<id>')
 def get_notes_page(id):
