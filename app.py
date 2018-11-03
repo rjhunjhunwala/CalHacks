@@ -11,12 +11,10 @@ output_text = ""
 @app.route('/<id>')
 def get_notes_page(id):
     if id[0:9] == "API_INPUT":
-        return "TEST!"
-        return make_file(get_parsed_data(None))
         img = get_image_from_sketch_back_end(id[9:])
         img = cv2.cvtColor(img, cv2.COLOR_RGB2BGR)
         output = get_parsed_data(img)
-        return make_file(output)
+        make_file(output)
         save_file_to_sketch_back_end(id[9:])
         return render_template(id[9:] + ".html")
     else:
@@ -61,7 +59,7 @@ def make_file(output):
         for lst in output:
             if lst[0] == "HEAD":
                 header+= '<li class="nav-item">'
-                header += '<a class="nav-link js-scroll-trigger" href="#%s">%s</a>' %(list[0], list[0])
+                header += '<a class="nav-link js-scroll-trigger" href="#%s">%s</a>' %(lst[0], lst[0])
                 header+='</li>'
 
         header+="</ul></div></nav>"
