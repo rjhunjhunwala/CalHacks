@@ -8,6 +8,7 @@
       <change afterPath="$PROJECT_DIR$/../SelfPaced/src/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SodokuSolver/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SodokuSolver/Solve-Sodoku-Board.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
     </list>
@@ -63,7 +64,7 @@
           <entry key="Procfile" value="6" />
           <entry key="html" value="71" />
           <entry key="md" value="125" />
-          <entry key="py" value="3913" />
+          <entry key="py" value="3970" />
           <entry key="txt" value="79" />
         </counts>
       </usages-collector>
@@ -72,7 +73,7 @@
           <entry key="HTML" value="71" />
           <entry key="Markdown" value="125" />
           <entry key="PLAIN_TEXT" value="87" />
-          <entry key="Python" value="3913" />
+          <entry key="Python" value="3970" />
         </counts>
       </usages-collector>
     </session>
@@ -101,18 +102,18 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="75" column="41" selection-start-line="75" selection-start-column="41" selection-end-line="75" selection-end-column="41" />
+            <state relative-caret-position="314">
+              <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
               <folding>
                 <element signature="e#0#64#0" expanded="true" />
-                <marker date="1541288310065" expanded="true" signature="167:169" ph="..." />
-                <marker date="1541288310065" expanded="true" signature="613:4478" ph="..." />
-                <marker date="1541288310065" expanded="true" signature="823:874" ph="..." />
-                <marker date="1541288310065" expanded="true" signature="3905:3910" ph="..." />
-                <marker date="1541288310065" expanded="true" signature="3905:3952" ph="..." />
-                <marker date="1541288310065" expanded="true" signature="3905:4049" ph="..." />
-                <marker date="1541288310065" expanded="true" signature="4086:4144" ph="..." />
-                <marker date="1541288310065" expanded="true" signature="4545:4550" ph="..." />
+                <marker date="1541288760058" expanded="true" signature="167:169" ph="..." />
+                <marker date="1541288760058" expanded="true" signature="630:4525" ph="..." />
+                <marker date="1541288760058" expanded="true" signature="868:919" ph="..." />
+                <marker date="1541288760058" expanded="true" signature="3950:3955" ph="..." />
+                <marker date="1541288760058" expanded="true" signature="3950:3997" ph="..." />
+                <marker date="1541288760058" expanded="true" signature="3950:4094" ph="..." />
+                <marker date="1541288760058" expanded="true" signature="4133:4191" ph="..." />
+                <marker date="1541288760058" expanded="true" signature="4592:4597" ph="..." />
               </folding>
             </state>
           </provider>
@@ -454,18 +455,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="75" column="41" selection-start-line="75" selection-start-column="41" selection-end-line="75" selection-end-column="41" />
+        <state relative-caret-position="314">
+          <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
           <folding>
             <element signature="e#0#64#0" expanded="true" />
-            <marker date="1541288310065" expanded="true" signature="167:169" ph="..." />
-            <marker date="1541288310065" expanded="true" signature="613:4478" ph="..." />
-            <marker date="1541288310065" expanded="true" signature="823:874" ph="..." />
-            <marker date="1541288310065" expanded="true" signature="3905:3910" ph="..." />
-            <marker date="1541288310065" expanded="true" signature="3905:3952" ph="..." />
-            <marker date="1541288310065" expanded="true" signature="3905:4049" ph="..." />
-            <marker date="1541288310065" expanded="true" signature="4086:4144" ph="..." />
-            <marker date="1541288310065" expanded="true" signature="4545:4550" ph="..." />
+            <marker date="1541288760058" expanded="true" signature="167:169" ph="..." />
+            <marker date="1541288760058" expanded="true" signature="630:4525" ph="..." />
+            <marker date="1541288760058" expanded="true" signature="868:919" ph="..." />
+            <marker date="1541288760058" expanded="true" signature="3950:3955" ph="..." />
+            <marker date="1541288760058" expanded="true" signature="3950:3997" ph="..." />
+            <marker date="1541288760058" expanded="true" signature="3950:4094" ph="..." />
+            <marker date="1541288760058" expanded="true" signature="4133:4191" ph="..." />
+            <marker date="1541288760058" expanded="true" signature="4592:4597" ph="..." />
           </folding>
         </state>
       </provider>
