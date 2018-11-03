@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 @app.route('/make_new/<id>')
 def make_new(id):
-    return '<img src="profile"></img>'
+    return '<img src="profile.png"></img>'
 
 @app.route('/<id>')
 def get_notes_page(id):
