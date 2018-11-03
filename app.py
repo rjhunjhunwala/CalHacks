@@ -12,7 +12,7 @@ def make_new(id):
     img = imread(io.BytesIO(base64.b64decode(id)))
     img = cv2.cvtColor(img, cv2.COLOR_RGB2BGR)
     parsed = get_parsed_data(img)
-    cv2.imwrite("static/profile.png", img)
+    cv2.imwrite("static/img/profile.png", img)
     return render_template("index.html")
 
 @app.route('/<id>')
