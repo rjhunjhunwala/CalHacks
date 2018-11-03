@@ -3,9 +3,9 @@ from flask import Flask
 app = Flask(__name__)
 
 
-@app.route('/?<id>')
+@app.route('/<id>')
 def hello_world(id):
-    return 'Hello World!'
+    return 'Hello World!' + id
 
 
 if __name__ == '__main__':
