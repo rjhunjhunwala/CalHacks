@@ -1,0 +1,30 @@
+
+<head>
+    <style>
+        </style>
+    <title>
+        Rohan Jhunjhunwala, Personal Portfolio, Dynamic Programming
+    </title>
+    
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
+            <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+                
+                <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
+                    
+</head>
+
+<body>
+    <center>
+        
+        <h1>Dynamic Programming, and Visualization </h1>
+        <img src = "images/DynamicProgrammingHog.png" title = "Dynamic Programming" style="width:70vw">
+            <dont-break-out>
+                <pre>
+                    The above image serves as a visualization of the strategy generated using dynamic programming methods for a fictional dice game called Hog created for the sake of the Berkeley intro CS class. Players take turns choosing N [0,10] dice to roll, and the total is added to your score. The first person to reach 100 points wins. There are a number of other rules which vary each year, but the most notable one (in play every year) is that, rolling a one (on any of the dice), forfeits the turn. The picture shows the optimal number of dice to roll at each turn (to maximize the odds of winning). Each square represents a pair of scores, and each color represents a number of dice from 0 through 10. Recursively solved this problem, using a dynamic programming application of Bellman's equation which says: A choice's probability of winning is the weighted average of the probabilities for each outcome of (1 - P(opponent winning)). The weights  are the odds of reaching the given outcomes (based on the probability distribution of dice rolls), and the probability of winning with score of 100, is 1.0, while it is a 0.0, if the opponents score is above 100. Since this game will likely remain an active assignment, it would be improper to publish the source. This implementation scored 11th in a field of 125 competitive implementations. 
+                </pre>
+                </don't-break-out>
+    </center>
+</body>
+
+<h3 style="text-align:center"><a href = "index.html">Back</a></h2>
