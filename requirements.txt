@@ -13,4 +13,4 @@ scipy
 imutils
 scikit-image
 pytesseract
-tesseraA
+tesseract
