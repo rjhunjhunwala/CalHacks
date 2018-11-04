@@ -8,8 +8,6 @@
       <change afterPath="$PROJECT_DIR$/../SelfPaced/src/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SodokuSolver/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SodokuSolver/Solve-Sodoku-Board.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/wrapper.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
     </list>
@@ -72,7 +70,7 @@
           <entry key="Python Console" value="19" />
           <entry key="html" value="71" />
           <entry key="md" value="125" />
-          <entry key="py" value="6109" />
+          <entry key="py" value="6127" />
           <entry key="txt" value="84" />
         </counts>
       </usages-collector>
@@ -81,7 +79,7 @@
           <entry key="HTML" value="71" />
           <entry key="Markdown" value="125" />
           <entry key="PLAIN_TEXT" value="92" />
-          <entry key="Python" value="6128" />
+          <entry key="Python" value="6146" />
         </counts>
       </usages-collector>
     </session>
@@ -138,14 +136,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wrapper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="463">
-              <caret line="78" selection-start-line="78" selection-end-line="78" />
+            <state relative-caret-position="189">
+              <caret line="50" column="48" selection-start-line="50" selection-start-column="48" selection-end-line="50" selection-end-column="48" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
-                <marker date="1541303582509" expanded="true" signature="286:291" ph="..." />
-                <marker date="1541303582509" expanded="true" signature="534:539" ph="..." />
-                <marker date="1541303582509" expanded="true" signature="915:920" ph="..." />
-                <marker date="1541303582509" expanded="true" signature="1628:1633" ph="..." />
+                <marker date="1541304221445" expanded="true" signature="286:291" ph="..." />
+                <marker date="1541304221445" expanded="true" signature="534:539" ph="..." />
+                <marker date="1541304221445" expanded="true" signature="915:920" ph="..." />
+                <marker date="1541304221445" expanded="true" signature="1646:1651" ph="..." />
               </folding>
             </state>
           </provider>
@@ -410,8 +408,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49920255" visible="true" weight="0.2532189" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49920255" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" sideWeight="0.50079745" side_tool="true" weight="0.2532189" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" sideWeight="0.49928468" weight="0.32891566" />
@@ -426,7 +425,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32891566" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007153" side_tool="true" weight="0.24457832" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49785408" visible="true" weight="0.24457832" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49785408" visible="true" weight="0.24457832" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -614,6 +613,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/quickstart.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="77" selection-start-line="77" selection-end-line="80" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1470">
@@ -633,26 +642,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quickstart.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="77" selection-start-line="77" selection-end-line="80" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wrapper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="78" selection-start-line="78" selection-end-line="78" />
+        <state relative-caret-position="189">
+          <caret line="50" column="48" selection-start-line="50" selection-start-column="48" selection-end-line="50" selection-end-column="48" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
-            <marker date="1541303582509" expanded="true" signature="286:291" ph="..." />
-            <marker date="1541303582509" expanded="true" signature="534:539" ph="..." />
-            <marker date="1541303582509" expanded="true" signature="915:920" ph="..." />
-            <marker date="1541303582509" expanded="true" signature="1628:1633" ph="..." />
+            <marker date="1541304221445" expanded="true" signature="286:291" ph="..." />
+            <marker date="1541304221445" expanded="true" signature="534:539" ph="..." />
+            <marker date="1541304221445" expanded="true" signature="915:920" ph="..." />
+            <marker date="1541304221445" expanded="true" signature="1646:1651" ph="..." />
           </folding>
         </state>
       </provider>
