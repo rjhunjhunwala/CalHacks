@@ -140,9 +140,6 @@ def get_parsed_data(img):
     :param img: CV2 image that's BGR
     :return:
     """
-    return [["HEAD","Thevenin Equivalents"],["IMAGE",["https://docs.google.com/uc?id=1sBHXRSW7QzL9JFDdfXUCe6kTuJOX_Tba"]],["TEXT", "This is a Thevenin Equivalent. "]]#,
-            #["HEAD","Norton"],["IMAGE",["https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/NortonEquivalentCircuits.png/1200px-NortonEquivalentCircuits.png"]],["TEXT", "This is a norton equivalent works."],[
-                # "HEAD","OP-AMPS"],["IMAGE",["https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/OpAmpTransistorLevel_Colored_Labeled.svg/780px-OpAmpTransistorLevel_Colored_Labeled.svg.png","https://cdn.sparkfun.com/assets/learn_tutorials/6/5/2/opamp.png"]]]
     return [["HEAD","Thevenin Equivalents"],["IMAGE",["https://cdn.instructables.com/FZY/8TLQ/IMF5Z55H/FZY8TLQIMF5Z55H.LARGE.jpg"]],["TEXT", "This is a Thevenin Equivalent. "],
             ["HEAD","Norton"],["IMAGE",["https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/NortonEquivalentCircuits.png/1200px-NortonEquivalentCircuits.png"]],["TEXT", "This is a norton equivalent works."],[
                 "HEAD","OP-AMPS"],["IMAGE",["https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/OpAmpTransistorLevel_Colored_Labeled.svg/780px-OpAmpTransistorLevel_Colored_Labeled.svg.png","https://cdn.sparkfun.com/assets/learn_tutorials/6/5/2/opamp.png"]]]
