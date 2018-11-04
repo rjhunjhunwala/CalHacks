@@ -10,5 +10,4 @@ tensorflow
 keras
 numpy
 scipy
-pickle
 imutils
