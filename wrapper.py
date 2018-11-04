@@ -48,7 +48,7 @@ def get_string_from_file(title):
             done = False
             while done is False:
                 status, done = downloader.next_chunk()
-            return fh.getvalue()
+            return str(fh.getvalue())
     return None #bad title...
 
 def getCV2_from_file(title):
