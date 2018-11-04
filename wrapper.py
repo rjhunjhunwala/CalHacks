@@ -74,5 +74,6 @@ def getCV2_from_file(title):
             overwritten.write(fh.getvalue())
             overwritten.close()
             return cv2.imread("overwriteme.jpg")
-
-    return None #bad title..
+def save_from_drive(title):
+    cv2.imwrite(title, getCV2_from_file(title))
+    return None

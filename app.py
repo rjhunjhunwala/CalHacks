@@ -91,6 +91,7 @@ def make_file(output):
         elif lst[0] == "IMAGE":
             header += '<div class ="section-gallery container">'
             for lstT in lst[1]:
+                wrapper.save_from_drive(lstT)
                 header +='<a class="elem-gallery" style="background-image: url(\'%s\')" title="3D Engine">'%lstT+'</a>'
             header += '</div>'
         else: #paragraph
@@ -140,6 +141,9 @@ def get_parsed_data(img):
     :param img: CV2 image that's BGR
     :return:
     """
+    return [["HEAD","Thevenin Equivalents"],["IMAGE",["profile.jpg"]],["TEXT", "This is a Thevenin Equivalent. "]]#,
+            #["HEAD","Norton"],["IMAGE",["https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/NortonEquivalentCircuits.png/1200px-NortonEquivalentCircuits.png"]],["TEXT", "This is a norton equivalent works."],[
+                # "HEAD","OP-AMPS"],["IMAGE",["https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/OpAmpTransistorLevel_Colored_Labeled.svg/780px-OpAmpTransistorLevel_Colored_Labeled.svg.png","https://cdn.sparkfun.com/assets/learn_tutorials/6/5/2/opamp.png"]]]
     return [["HEAD","Thevenin Equivalents"],["IMAGE",["https://cdn.instructables.com/FZY/8TLQ/IMF5Z55H/FZY8TLQIMF5Z55H.LARGE.jpg"]],["TEXT", "This is a Thevenin Equivalent. "],
             ["HEAD","Norton"],["IMAGE",["https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/NortonEquivalentCircuits.png/1200px-NortonEquivalentCircuits.png"]],["TEXT", "This is a norton equivalent works."],[
                 "HEAD","OP-AMPS"],["IMAGE",["https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/OpAmpTransistorLevel_Colored_Labeled.svg/780px-OpAmpTransistorLevel_Colored_Labeled.svg.png","https://cdn.sparkfun.com/assets/learn_tutorials/6/5/2/opamp.png"]]]
