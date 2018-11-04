@@ -62,7 +62,6 @@ def getCV2_from_file(title):
     items = results.get('files', [])
 
     for item in items:
-        print(item)
         if item['name'] == title:
             file_id = item['id']
             request = get_service().files().get_media(fileId=file_id)
@@ -71,11 +70,9 @@ def getCV2_from_file(title):
             done = False
             while done is False:
                 status, done = downloader.next_chunk()
-            overwritten = open("overwriteme.jpg","w")
+            overwritten = open("overwriteme.jpg","wb")
             overwritten.write(fh.getvalue())
             overwritten.close()
             return cv2.imread("overwriteme.jpg")
 
     return None #bad title..
-cv2.imshow("FUCK YOU!", getCV2_from_file("photo.jpg"))
-cv2.waitKey(0)
