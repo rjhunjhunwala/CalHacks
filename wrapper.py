@@ -98,3 +98,18 @@ def save_from_drive(title):
             overwritten.close()
             return None
     return None
+
+def get_id_from_title(title):
+    results = get_service().files().list(
+        pageSize=30, fields="nextPageToken, files(id, name)").execute()
+    items = results.get('files', [])
+
+    for item in items:
+        if item['name'] == title:
+            file_id = item['id']
+            return file_id
+
+    return None
+
+def get_base_url():
+    return 'https://docs.google.com/uc?id='

@@ -60,13 +60,15 @@ def main():
         flow = client.flow_from_clientsecrets('credentials.json', SCOPES)
         creds = tools.run_flow(flow, store)
     service = build('drive', 'v3', http=creds.authorize(Http()))
-
+    """
     file_id = '1PVwCeqSupTrz5QRCilt0VFpTsO49RvMy'
 
     request = service.files().get_media(fileId=file_id)
     fh = io.BytesIO()
     downloader = MediaIoBaseDownload(fh, request)
     done = False
+    """
+    """
     while done is False:
         status, done = downloader.next_chunk()
         print ("Download %d%%." % int(status.progress() * 100))
@@ -74,13 +76,14 @@ def main():
     out.write(fh.getvalue())
     out.close()
     """
+
     file_metadata = {'name': 'test_file.txt'}
     media = MediaFileUpload('app.py')
     fil = service.files().create(body=file_metadata,
                                         media_body=media,
                                         fields='id').execute()
     print('File ID: %s' % fil.get('id'))
-    """
+
     # Call the Drive v3 API
     results = service.files().list(
         pageSize=10, fields="nextPageToken, files(id, name)").execute()
