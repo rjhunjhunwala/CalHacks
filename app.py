@@ -32,7 +32,7 @@ output_text = ""
 @app.route('/<id>')
 def get_notes_page(id):
     if id[0:9] == "API_INPUT":
-        img = wrapper.getCV2_from_file(id[9:0]+".jpg")
+        img = wrapper.getCV2_from_file(id[9:]+".jpg")
         output = get_parsed_data(img)
         output_string = make_file(output)
         store_string_back_end(id[9:], output_string)
