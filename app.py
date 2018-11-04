@@ -1,5 +1,5 @@
-from flask import Flask, render_template, render_template_string
-import base64
+from flask import Flask, render_template, re
+
 import cv2
 import io
 from imageio import imread
@@ -76,7 +76,7 @@ def make_file(output):
             header+='<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="%s"><div class="my-auto">' %lst[1]
             header+='<h1>'+lst[1]+"</h1>"
         elif lst[0] == "IMAGE":
-            header += '< div class ="section-gallery container" >'
+            header += '<div class ="section-gallery container">'
             header +='<a href="https://github.com/rjhunjhunwala/Simple3D" class="elem-gallery" style="background-image: url(\'%s\')" title="3D Engine">'%lst[1]+'</a>'
             header += '</div>'
         else: #paragraph
