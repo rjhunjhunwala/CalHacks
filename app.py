@@ -122,4 +122,4 @@ def get_parsed_data(img):
     :param img: CV2 image that's BGR
     :return:
     """
-    return [["HEAD","Thevenin Equivalents"],["IMAGE","https://cdn.instructables.com/FZY/8TLQ/IMF5Z55H/FZY8TLQIMF5Z55H.LARGE.jpg"],["TEXT", "This is a Thevenin Equivalent. "]["HEAD","Norton"],["IMAGE","https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/NortonEquivalentCircuits.png/1200px-NortonEquivalentCircuits.png"],["TEXT", "This is a norton equivalent works."]]
+    return [["HEAD","Thevenin Equivalents"],["IMAGE","https://cdn.instructables.com/FZY/8TLQ/IMF5Z55H/FZY8TLQIMF5Z55H.LARGE.jpg"],["TEXT", "This is a Thevenin Equivalent. "],["HEAD","Norton"],["IMAGE","https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/NortonEquivalentCircuits.png/1200px-NortonEquivalentCircuits.png"],["TEXT", "This is a norton equivalent works."]]
