@@ -2,6 +2,15 @@ from flask import Flask, render_template, render_template_string
 import cv2
 import io
 from imageio import imread
+from __future__ import print_function
+from googleapiclient.discovery import build
+from httplib2 import Http
+from oauth2client import file, client, tools
+
+from apiclient import errors
+from apiclient.http import MediaFileUpload, MediaIoBaseDownload
+import io
+
 
 app = Flask(__name__)
 
@@ -21,7 +30,7 @@ def get_notes_page(id):
         return render_template_string(get_string_from_sketch_back_end(id))
 TEMP = "temp.html"
 def get_string_from_sketch_back_end(id):
-    return make_file(get_parsed_data(None)) #TODO: get a file from back end
+    return None
 def get_image_from_sketch_back_end(id):
     return None #TODO: get an image from back end
 def store_string_back_end(id, string):
@@ -118,6 +127,8 @@ def add_header(response):
     return response
 if __name__ == '__main__':
     app.run()
+
+
 
 def get_parsed_data(img):
     """
