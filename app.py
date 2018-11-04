@@ -77,7 +77,7 @@ def make_file(output):
         elif lst[0] == "IMAGE":
             header += '<div class ="section-gallery container">'
             for lstT in lst[1]:
-                header +='<a class="elem-gallery" style="background-image: url(\'%s\')" title="3D Engine">'%lstT[0]+'</a>'
+                header +='<a class="elem-gallery" style="background-image: url(\'%s\')" title="3D Engine">'%lstT+'</a>'
             header += '</div>'
         else: #paragraph
             header+='<p>' + lst[1] + '</p>'
