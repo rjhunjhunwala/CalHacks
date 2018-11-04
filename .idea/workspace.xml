@@ -8,6 +8,7 @@
       <change afterPath="$PROJECT_DIR$/../SelfPaced/src/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SodokuSolver/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SodokuSolver/Solve-Sodoku-Board.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
     </list>
@@ -63,7 +64,7 @@
           <entry key="Procfile" value="6" />
           <entry key="html" value="71" />
           <entry key="md" value="125" />
-          <entry key="py" value="4171" />
+          <entry key="py" value="4231" />
           <entry key="txt" value="79" />
         </counts>
       </usages-collector>
@@ -72,7 +73,7 @@
           <entry key="HTML" value="71" />
           <entry key="Markdown" value="125" />
           <entry key="PLAIN_TEXT" value="87" />
-          <entry key="Python" value="4171" />
+          <entry key="Python" value="4231" />
         </counts>
       </usages-collector>
     </session>
@@ -96,18 +97,30 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="124" column="323" selection-start-line="124" selection-start-column="323" selection-end-line="124" selection-end-column="323" />
+            <state relative-caret-position="183">
+              <caret line="79" column="165" selection-start-line="79" selection-start-column="165" selection-end-line="79" selection-end-column="165" />
               <folding>
                 <element signature="e#0#64#0" expanded="true" />
-                <marker date="1541290169683" expanded="true" signature="167:169" ph="..." />
-                <marker date="1541290169683" expanded="true" signature="660:4563" ph="..." />
-                <marker date="1541290169683" expanded="true" signature="906:957" ph="..." />
-                <marker date="1541290169683" expanded="true" signature="3988:3993" ph="..." />
-                <marker date="1541290169683" expanded="true" signature="3988:4035" ph="..." />
-                <marker date="1541290169683" expanded="true" signature="3988:4132" ph="..." />
-                <marker date="1541290169683" expanded="true" signature="4171:4229" ph="..." />
-                <marker date="1541290169683" expanded="true" signature="4630:4635" ph="..." />
+                <marker date="1541291274575" expanded="true" signature="167:169" ph="..." />
+                <marker date="1541291274575" expanded="true" signature="660:4771" ph="..." />
+                <marker date="1541291274575" expanded="true" signature="906:957" ph="..." />
+                <marker date="1541291274575" expanded="true" signature="4196:4201" ph="..." />
+                <marker date="1541291274575" expanded="true" signature="4196:4243" ph="..." />
+                <marker date="1541291274575" expanded="true" signature="4196:4340" ph="..." />
+                <marker date="1541291274575" expanded="true" signature="4379:4437" ph="..." />
+                <marker date="1541291274575" expanded="true" signature="4838:4843" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="110" column="20" lean-forward="true" selection-start-line="110" selection-start-column="20" selection-end-line="110" selection-end-column="173" />
+              <folding>
+                <element signature="n#style#0;n#a#4;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -143,15 +156,6 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/img/profile.png">
           <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="509">
-              <caret line="83" selection-start-line="83" selection-end-line="84" selection-end-column="33" />
-            </state>
-          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -232,6 +236,11 @@
               <item name="CalHacks" type="b2602c69:ProjectViewProjectNode" />
               <item name="CalHacks" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CalHacks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CalHacks" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CalHacks" type="b2602c69:ProjectViewProjectNode" />
@@ -324,7 +333,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49920255" visible="true" weight="0.2532189" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49920255" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" sideWeight="0.50079745" side_tool="true" weight="0.2532189" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" sideWeight="0.49928468" weight="0.32891566" />
@@ -339,7 +348,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32891566" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007153" side_tool="true" weight="0.24457832" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49785408" visible="true" weight="0.24457832" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49785408" visible="true" weight="0.24457832" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -448,13 +457,6 @@
     <entry file="file://$PROJECT_DIR$/train.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="83" selection-start-line="83" selection-end-line="84" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/profile.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -470,6 +472,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Aptfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/models/smallervggnet.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -479,27 +488,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Aptfile">
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        <state relative-caret-position="193">
+          <caret line="110" column="20" lean-forward="true" selection-start-line="110" selection-start-column="20" selection-end-line="110" selection-end-column="173" />
+          <folding>
+            <element signature="n#style#0;n#a#4;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="124" column="323" selection-start-line="124" selection-start-column="323" selection-end-line="124" selection-end-column="323" />
+        <state relative-caret-position="183">
+          <caret line="79" column="165" selection-start-line="79" selection-start-column="165" selection-end-line="79" selection-end-column="165" />
           <folding>
             <element signature="e#0#64#0" expanded="true" />
-            <marker date="1541290169683" expanded="true" signature="167:169" ph="..." />
-            <marker date="1541290169683" expanded="true" signature="660:4563" ph="..." />
-            <marker date="1541290169683" expanded="true" signature="906:957" ph="..." />
-            <marker date="1541290169683" expanded="true" signature="3988:3993" ph="..." />
-            <marker date="1541290169683" expanded="true" signature="3988:4035" ph="..." />
-            <marker date="1541290169683" expanded="true" signature="3988:4132" ph="..." />
-            <marker date="1541290169683" expanded="true" signature="4171:4229" ph="..." />
-            <marker date="1541290169683" expanded="true" signature="4630:4635" ph="..." />
+            <marker date="1541291274575" expanded="true" signature="167:169" ph="..." />
+            <marker date="1541291274575" expanded="true" signature="660:4771" ph="..." />
+            <marker date="1541291274575" expanded="true" signature="906:957" ph="..." />
+            <marker date="1541291274575" expanded="true" signature="4196:4201" ph="..." />
+            <marker date="1541291274575" expanded="true" signature="4196:4243" ph="..." />
+            <marker date="1541291274575" expanded="true" signature="4196:4340" ph="..." />
+            <marker date="1541291274575" expanded="true" signature="4379:4437" ph="..." />
+            <marker date="1541291274575" expanded="true" signature="4838:4843" ph="..." />
           </folding>
         </state>
       </provider>

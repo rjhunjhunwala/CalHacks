@@ -76,7 +76,9 @@ def make_file(output):
             header+='<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="%s"><div class="my-auto">' %lst[1]
             header+='<h1>'+lst[1]+"</h1>"
         elif lst[0] == "IMAGE":
-            header+='<img src = "%s"' %lst[1] +"></img>"
+            header += '< div class ="section-gallery container" >'
+            header +='<a href="https://github.com/rjhunjhunwala/Simple3D" class="elem-gallery" style="background-image: url(\'%s\')" title="3D Engine">'%lst[1]+'</a>'
+            header += '</div>'
         else: #paragraph
             header+='<p>' + lst[1] + '</p>'
 
