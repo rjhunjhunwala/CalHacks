@@ -62,6 +62,7 @@ def getCV2_from_file(title):
     items = results.get('files', [])
 
     for item in items:
+        print("HERE!!!")
         if item['name'] == title:
             file_id = item['id']
             request = get_service().files().get_media(fileId=file_id)
@@ -73,7 +74,8 @@ def getCV2_from_file(title):
             overwritten = open("overwriteme.jpg","wb")
             overwritten.write(fh.getvalue())
             overwritten.close()
-            return cv2.imread("overwriteme.jpg")
+            output =  cv2.imread("overwriteme.jpg")
+            return output
 def save_from_drive(title):
     """
     get's a CV2 image from file
