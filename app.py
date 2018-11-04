@@ -147,12 +147,10 @@ def get_parsed_data(img):
     :param img: CV2 image that's BGR
     :return:
     """
-    cv2_im = cv2.cvtColor(img,cv2.COLOR_BGR2RGB)
-    pil_im = Image.fromarray(cv2_im)
-    ratio = image.shape[0]/500.0
-    orig = image.copy()
-    image = imutils.resize(image, height=500)
-    gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+    ratio = img.shape[0]/500.0
+    orig = img.copy()
+    img = imutils.resize(img, height=500)
+    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     gray = cv2.GaussianBlur(gray, (5,5), 0)
     def autocanny(image, sigma=0.33):
         v = np.median(image)
@@ -181,7 +179,6 @@ def get_parsed_data(img):
     warped = cv2.cvtColor(warped,cv2.COLOR_GRAY2RGB)
     kernel = np.ones((3,3),np.uint8)
     edged = cv2.dilate(edged, kernel, iterations=1)
-    thresh_area = 50
     cnts = cv2.findContours(edged.copy(), cv2.RETR_LIST, cv2.CHAIN_APPROX_SIMPLE)
     cnts = cnts[0] if imutils.is_cv2() else cnts[1]
     pil_im = Image.fromarray(warped)
