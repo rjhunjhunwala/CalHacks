@@ -11,3 +11,5 @@ keras
 numpy
 scipy
 imutils
+scikit-image
+pytesseract
