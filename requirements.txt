@@ -14,3 +14,4 @@ imutils
 scikit-image
 pytesseract
 tesseract
+tesseract-ocy
