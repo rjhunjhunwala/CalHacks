@@ -8,7 +8,7 @@
       <change afterPath="$PROJECT_DIR$/../SelfPaced/src/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SodokuSolver/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SodokuSolver/Solve-Sodoku-Board.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/wrapper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,7 +70,7 @@
           <entry key="Python Console" value="19" />
           <entry key="html" value="71" />
           <entry key="md" value="125" />
-          <entry key="py" value="6127" />
+          <entry key="py" value="6231" />
           <entry key="txt" value="84" />
         </counts>
       </usages-collector>
@@ -79,29 +79,28 @@
           <entry key="HTML" value="71" />
           <entry key="Markdown" value="125" />
           <entry key="PLAIN_TEXT" value="92" />
-          <entry key="Python" value="6146" />
+          <entry key="Python" value="6250" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1470">
-              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+            <state relative-caret-position="240">
+              <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
               <folding>
-                <element signature="e#0#64#0" expanded="true" />
-                <marker date="1541303253126" expanded="true" signature="387:389" ph="..." />
-                <marker date="1541303253126" expanded="true" signature="808:4844" ph="..." />
-                <marker date="1541303253126" expanded="true" signature="900:901" ph="..." />
-                <marker date="1541303253126" expanded="true" signature="939:1047" ph="..." />
-                <marker date="1541303253126" expanded="true" signature="4269:4274" ph="..." />
-                <marker date="1541303253126" expanded="true" signature="4269:4316" ph="..." />
-                <marker date="1541303253126" expanded="true" signature="4269:4413" ph="..." />
-                <marker date="1541303253126" expanded="true" signature="4452:4510" ph="..." />
-                <marker date="1541303253126" expanded="true" signature="4913:4918" ph="..." />
+                <marker date="1541305957324" expanded="true" signature="480:482" ph="..." />
+                <marker date="1541305957324" expanded="true" signature="901:4937" ph="..." />
+                <marker date="1541305957324" expanded="true" signature="993:994" ph="..." />
+                <marker date="1541305957324" expanded="true" signature="1032:1140" ph="..." />
+                <marker date="1541305957324" expanded="true" signature="4362:4367" ph="..." />
+                <marker date="1541305957324" expanded="true" signature="4362:4409" ph="..." />
+                <marker date="1541305957324" expanded="true" signature="4362:4506" ph="..." />
+                <marker date="1541305957324" expanded="true" signature="4545:4603" ph="..." />
+                <marker date="1541305957324" expanded="true" signature="5006:5011" ph="..." />
               </folding>
             </state>
           </provider>
@@ -133,7 +132,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wrapper.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="189">
@@ -211,8 +210,8 @@
         <option value="$PROJECT_DIR$/credentials.json" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/quickstart.py" />
-        <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/wrapper.py" />
+        <option value="$PROJECT_DIR$/app.py" />
       </list>
     </option>
   </component>
@@ -623,25 +622,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1470">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#64#0" expanded="true" />
-            <marker date="1541303253126" expanded="true" signature="387:389" ph="..." />
-            <marker date="1541303253126" expanded="true" signature="808:4844" ph="..." />
-            <marker date="1541303253126" expanded="true" signature="900:901" ph="..." />
-            <marker date="1541303253126" expanded="true" signature="939:1047" ph="..." />
-            <marker date="1541303253126" expanded="true" signature="4269:4274" ph="..." />
-            <marker date="1541303253126" expanded="true" signature="4269:4316" ph="..." />
-            <marker date="1541303253126" expanded="true" signature="4269:4413" ph="..." />
-            <marker date="1541303253126" expanded="true" signature="4452:4510" ph="..." />
-            <marker date="1541303253126" expanded="true" signature="4913:4918" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wrapper.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -652,6 +632,24 @@
             <marker date="1541304221445" expanded="true" signature="534:539" ph="..." />
             <marker date="1541304221445" expanded="true" signature="915:920" ph="..." />
             <marker date="1541304221445" expanded="true" signature="1646:1651" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <folding>
+            <marker date="1541305957324" expanded="true" signature="480:482" ph="..." />
+            <marker date="1541305957324" expanded="true" signature="901:4937" ph="..." />
+            <marker date="1541305957324" expanded="true" signature="993:994" ph="..." />
+            <marker date="1541305957324" expanded="true" signature="1032:1140" ph="..." />
+            <marker date="1541305957324" expanded="true" signature="4362:4367" ph="..." />
+            <marker date="1541305957324" expanded="true" signature="4362:4409" ph="..." />
+            <marker date="1541305957324" expanded="true" signature="4362:4506" ph="..." />
+            <marker date="1541305957324" expanded="true" signature="4545:4603" ph="..." />
+            <marker date="1541305957324" expanded="true" signature="5006:5011" ph="..." />
           </folding>
         </state>
       </provider>
