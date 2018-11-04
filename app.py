@@ -92,7 +92,7 @@ def make_file(output):
             header += '<div class ="section-gallery container">'
             for lstT in lst[1]:
                 wrapper.save_from_drive(lstT)
-                header +='<a class="elem-gallery" style="background-image: url(\'%s\')" title="3D Engine">'%lstT+'</a>'
+                header +='<a class="elem-gallery" style="background-image: url(\'%s\')" title="3D Engine">'%("../static/"+lstT)+'</a>'
             header += '</div>'
         else: #paragraph
             header+='<p>' + lst[1] + '</p>'

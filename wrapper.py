@@ -75,5 +75,26 @@ def getCV2_from_file(title):
             overwritten.close()
             return cv2.imread("overwriteme.jpg")
 def save_from_drive(title):
-    cv2.imwrite(title, getCV2_from_file(title))
+    """
+    get's a CV2 image from file
+    :param title:
+    :return: a valid cv2 image
+    """
+    results = get_service().files().list(
+        pageSize=30, fields="nextPageToken, files(id, name)").execute()
+    items = results.get('files', [])
+
+    for item in items:
+        if item['name'] == title:
+            file_id = item['id']
+            request = get_service().files().get_media(fileId=file_id)
+            fh = io.BytesIO()
+            downloader = MediaIoBaseDownload(fh, request)
+            done = False
+            while done is False:
+                status, done = downloader.next_chunk()
+            overwritten = open("../static/"+title,"wb")
+            overwritten.write(fh.getvalue())
+            overwritten.close()
+            return None
     return None
