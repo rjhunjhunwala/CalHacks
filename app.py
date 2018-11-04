@@ -9,7 +9,7 @@ from oauth2client import file, client, tools
 from apiclient import errors
 from apiclient.http import MediaFileUpload, MediaIoBaseDownload
 import io
-from import wrapper *
+from wrapper import *
 
 app = Flask(__name__)
 
