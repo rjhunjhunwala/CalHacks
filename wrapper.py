@@ -57,12 +57,13 @@ def getCV2_from_file(title):
     :param title:
     :return: a valid cv2 image
     """
+    print("looking for:"+title)
     results = get_service().files().list(
         pageSize=30, fields="nextPageToken, files(id, name)").execute()
     items = results.get('files', [])
 
     for item in items:
-        print("HERE!!!")
+        print("found:"+item['name'])
         if item['name'] == title:
             file_id = item['id']
             request = get_service().files().get_media(fileId=file_id)
