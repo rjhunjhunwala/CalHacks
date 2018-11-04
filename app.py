@@ -150,6 +150,7 @@ def get_parsed_data(img):
     :param img: CV2 image that's BGR
     :return:
     """
+    return [['HEAD', 'Amplfiersa'], ['IMAGE', ['https://docs.google.com/uc?id=1sTP55jgsI-vBxwHJ8z0-U17QfB-FMEmu', 'https://docs.google.com/uc?id=16fT2zjAD1zh_n9SRMKueMnyIdEf7cmPJ']], ['TEXT', 'To the left is an inverting amplifier j and to the right is noninverting'], ['HEAD', 'Norton'], ['IMAGE', ['https://docs.google.com/uc?id=1MXvk20e6pJ30BkKd1dxQfKUNtIB6aFGL']], ['TEXT', 'Any circuit can be Ox pressed AS A Nog ton et The venin eg wivelen']]
     ratio = img.shape[0]/500.0
     orig = img.copy()
     img = imutils.resize(img, height=500)
