@@ -62,7 +62,7 @@ def make_file(output):
         for lst in output:
             if lst[0] == "HEAD":
                 header+= '<li class="nav-item">'
-                header += '<a class="nav-link js-scroll-trigger" href="#%s">%s</a>' %(lst[0], lst[0])
+                header += '<a class="nav-link js-scroll-trigger" href="#%s">%s</a>' %(lst[1], lst[1])
                 header+='</li>'
         header+="</ul></div></nav>"
 
@@ -122,5 +122,4 @@ def get_parsed_data(img):
     :param img: CV2 image that's BGR
     :return:
     """
-    # return 5
-    return [["HEAD","Hello"],["IMAGE","../static/img/profile.png"],["TEXT", "This is a circuit"]]
+    return [["HEAD","Thevenin Equivalents"],["IMAGE","https://cdn.instructables.com/FZY/8TLQ/IMF5Z55H/FZY8TLQIMF5Z55H.LARGE.jpg"],["TEXT", "This is a Thevenin Equivalent. "]["HEAD","Norton"],["IMAGE","https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/NortonEquivalentCircuits.png/1200px-NortonEquivalentCircuits.png"],["TEXT", "This is a norton equivalent works."]]
