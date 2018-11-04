@@ -2,3 +2,12 @@ Flask>=0.8
 gunicorn>=0.14.2
 opencv-python>=3.4.0
 imageio
+google-api-python-client
+httplib2
+oauth2client
+apiclient
+tensorflow
+keras
+numpy
+scipy
+imutils
