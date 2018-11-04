@@ -9,7 +9,7 @@ from oauth2client import file, client, tools
 from apiclient import errors
 from apiclient.http import MediaFileUpload, MediaIoBaseDownload
 import io
-
+from import wrapper *
 
 app = Flask(__name__)
 
@@ -18,9 +18,7 @@ output_text = ""
 @app.route('/<id>')
 def get_notes_page(id):
     if id[0:9] == "API_INPUT":
-        img = None
-        # img = get_image_from_sketch_back_end(id[9:])
-        # img = cv2.cvtColor(img, cv2.COLOR_RGB2BGR)
+        img = wrapper.getCV2_from_file(id[9:0]+".jpg")
         output = get_parsed_data(img)
         output_string = make_file(output)
         store_string_back_end(id[9:], output_string)
@@ -29,11 +27,12 @@ def get_notes_page(id):
         return render_template_string(get_string_from_sketch_back_end(id))
 TEMP = "temp.html"
 def get_string_from_sketch_back_end(id):
-    return None
-def get_image_from_sketch_back_end(id):
-    return None #TODO: get an image from back end
+    return wrapper.get_string_from_file(id+".txt")
 def store_string_back_end(id, string):
-    return None #TODO get a string form back end
+    fil = open(id + ".txt", "w")
+    fil.write(string)
+    fil.close()
+    wrapper.upload_file(id+".txt")
 
 def make_file(output):
     header = """
