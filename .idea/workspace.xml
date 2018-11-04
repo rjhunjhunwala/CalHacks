@@ -63,7 +63,7 @@
           <entry key="Procfile" value="6" />
           <entry key="html" value="71" />
           <entry key="md" value="125" />
-          <entry key="py" value="4292" />
+          <entry key="py" value="4366" />
           <entry key="txt" value="79" />
         </counts>
       </usages-collector>
@@ -72,7 +72,7 @@
           <entry key="HTML" value="71" />
           <entry key="Markdown" value="125" />
           <entry key="PLAIN_TEXT" value="87" />
-          <entry key="Python" value="4292" />
+          <entry key="Python" value="4366" />
         </counts>
       </usages-collector>
     </session>
@@ -96,17 +96,18 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="64" selection-start-column="64" selection-end-column="64" />
+            <state relative-caret-position="175">
+              <caret line="79" column="29" selection-start-line="79" selection-start-column="29" selection-end-line="79" selection-end-column="29" />
               <folding>
-                <marker date="1541292028231" expanded="true" signature="153:155" ph="..." />
-                <marker date="1541292028231" expanded="true" signature="646:4755" ph="..." />
-                <marker date="1541292028231" expanded="true" signature="892:943" ph="..." />
-                <marker date="1541292028231" expanded="true" signature="4180:4185" ph="..." />
-                <marker date="1541292028231" expanded="true" signature="4180:4227" ph="..." />
-                <marker date="1541292028231" expanded="true" signature="4180:4324" ph="..." />
-                <marker date="1541292028231" expanded="true" signature="4363:4421" ph="..." />
-                <marker date="1541292028231" expanded="true" signature="4822:4827" ph="..." />
+                <element signature="e#0#64#0" expanded="true" />
+                <marker date="1541292753267" expanded="true" signature="153:155" ph="..." />
+                <marker date="1541292753267" expanded="true" signature="646:4743" ph="..." />
+                <marker date="1541292753267" expanded="true" signature="892:943" ph="..." />
+                <marker date="1541292753267" expanded="true" signature="4168:4173" ph="..." />
+                <marker date="1541292753267" expanded="true" signature="4168:4215" ph="..." />
+                <marker date="1541292753267" expanded="true" signature="4168:4312" ph="..." />
+                <marker date="1541292753267" expanded="true" signature="4351:4409" ph="..." />
+                <marker date="1541292753267" expanded="true" signature="4810:4815" ph="..." />
               </folding>
             </state>
           </provider>
@@ -182,6 +183,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>html</find>
+      <find>href</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -503,17 +505,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="64" selection-start-column="64" selection-end-column="64" />
+        <state relative-caret-position="175">
+          <caret line="79" column="29" selection-start-line="79" selection-start-column="29" selection-end-line="79" selection-end-column="29" />
           <folding>
-            <marker date="1541292028231" expanded="true" signature="153:155" ph="..." />
-            <marker date="1541292028231" expanded="true" signature="646:4755" ph="..." />
-            <marker date="1541292028231" expanded="true" signature="892:943" ph="..." />
-            <marker date="1541292028231" expanded="true" signature="4180:4185" ph="..." />
-            <marker date="1541292028231" expanded="true" signature="4180:4227" ph="..." />
-            <marker date="1541292028231" expanded="true" signature="4180:4324" ph="..." />
-            <marker date="1541292028231" expanded="true" signature="4363:4421" ph="..." />
-            <marker date="1541292028231" expanded="true" signature="4822:4827" ph="..." />
+            <element signature="e#0#64#0" expanded="true" />
+            <marker date="1541292753267" expanded="true" signature="153:155" ph="..." />
+            <marker date="1541292753267" expanded="true" signature="646:4743" ph="..." />
+            <marker date="1541292753267" expanded="true" signature="892:943" ph="..." />
+            <marker date="1541292753267" expanded="true" signature="4168:4173" ph="..." />
+            <marker date="1541292753267" expanded="true" signature="4168:4215" ph="..." />
+            <marker date="1541292753267" expanded="true" signature="4168:4312" ph="..." />
+            <marker date="1541292753267" expanded="true" signature="4351:4409" ph="..." />
+            <marker date="1541292753267" expanded="true" signature="4810:4815" ph="..." />
           </folding>
         </state>
       </provider>
